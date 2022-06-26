@@ -1,0 +1,367 @@
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #000;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+
+}
+
+
+.button button{
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 0px 90px;
+    background-color: #54d4e1;
+    color: white;
+}
+.box{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 100px 10px;
+}
+.box .mep i{
+    color:  #ffc107;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.box .mep h3 , p{
+    margin: 20px;
+}
+.box .mep{
+    height: 275px;
+    width: 250px;
+    background-color: #f3f3f3c4;
+    margin: 25px;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+.box  .mep:hover{
+    transform: scale(1.2);
+    background-color: #ffc107;
+    color: white;
+}
+.box .mep i:hover{
+    color: white;
+}
+.box-d{
+    margin: 16px;
+    padding: 30px;
+    background-color: #54d4e1;
+    width: 200px;
+    height: 333px;
+}
+/* start doktosler */
+.image {
+    position: relative;
+    width: 250px;
+}
+
+.image__img {
+    display: block;
+    width: 250px;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:250px;
+    height:250px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background:rgba(0, 0, 0, 0.7);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+#bak{
+    background: #f6f6f6;
+}
+/* end doktor */
+/* start cards */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.img-text{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 60px 0;
+}
+.img-text .immg img{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background-color: #54d4e1;
+    padding: 50px 50px 0px 50px;
+}
+.im-text h2{
+    font-size: 40px;
+    color: #54d4e1;
+    margin: 13px;
+}
+.im-text h4{
+    margin: 15px;
+    font-size: 20px;
+}
+.im-text{
+    width: 380px;
+    height: 285px;
+}
+.im-text button{
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 0px 15px;
+    background-color: #54d4e1;
+    color: white;
+}
+
+.shahd{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 30px;
+}
+.shhd-img img{
+    width: 350px;
+    height: 200px;
+}
+.shhd-h-p h1{
+    color: #54d4e1;
+    margin: 0px 20px;
+}
+.shhd-h-p{
+    width: 50%;
+    height: 325px;
+    margin: auto;
+}
+.shhd-h-p h3{
+    margin: 20px;
+}
+.shhd-img{
+    width: 90%;
+    height: 300px;
+    animation-name: anmtion;
+    animation-timing-function: step-end;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@keyframes anmtion {
+    0% {
+        background-image: url(/12-Ways-to-Make-a-Slow-Laptop-Faster_a845.jpg);
+        background-size: cover;
+
+    }
+    25% {
+        background-image: url(/Medical-Records-Data-Labeling.jpg);
+        background-size: cover;
+    }
+    75% {
+        background-image: url(/29acdf125d73e4dc93ffdde57565ea10.jpg);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(/29acdf125d73e4dc93ffdde57565ea10.jpg);
+background-size: cover;
+    }
+}
+.doktorlar{
+    margin: auto;
+    text-align: center;
+}
+.dok-bolom{
+    display: flex;
+    justify-content: center;
+}
+.do-img-a{
+    margin: 75px;
+    width: 20%;
+    height: 250px;
+}
+.do-img-a img{
+    width: 200px;
+    border-radius: 130px;
+    background-color: #f6f6f6;
+}
+.do-img-a h3{
+    margin: 15px;
+    color: #5fb8c2;
+    font-family: sans-serif;
+}
+.soon{
+    margin: auto;
+    text-align: center;
+    background-color: #54d4e1d6;
+}
+.soon img{
+    width: 190px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.soon h1{
+    margin: 20px;
+}
+.soon p{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.soon h4{
+    padding: 20px;
+}
+.abb-sh{
+    background-image: url(/5e5528bc4c59b7777914d557.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.abb-sh .map{
+    padding: 100px 50px;
+} */
